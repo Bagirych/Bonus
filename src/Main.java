@@ -6,10 +6,9 @@ public class Main {
         int moneyUp = 1100; // пополнение средств
         int bonus; // бонусные баллы
 
-        if (moneyUp >= 1000) {
+        if (moneyUp > 1000) {
             bonus = moneyUp / scale;
-        }
-        else {
+        } else {
             bonus = 0;
         }
 
